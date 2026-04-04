@@ -1,0 +1,136 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.buttons a {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: var(--md-sys-color-surface-strong);
+    color: var(--md-sys-color-on-surface);
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid var(--md-sys-color-outline);
+    border-radius: var(--md-sys-shape-corner-sm);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    min-width: 100px;
+    justify-content: flex-start;
+    position: relative;
+    cursor: pointer;
+    box-shadow: var(--md-sys-elevation-1);
+}
+
+.buttons a:hover {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+.buttons a img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+    transition: filter 0.2s ease;
+}
+
+.buttons a .platform-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+    background-color: currentColor;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+}
+
+.buttons a .platform-icon.bilibili {
+    background-color: #00A1D6;
+    mask-image: url('../assets/platform-icons/bilibili.svg');
+    -webkit-mask-image: url('../assets/platform-icons/bilibili.svg');
+}
+
+.buttons a .platform-icon.wechat {
+    background-color: #07C160;
+    mask-image: url('../assets/platform-icons/wechat.svg');
+    -webkit-mask-image: url('../assets/platform-icons/wechat.svg');
+}
+
+.buttons a .platform-icon.afdian {
+    background-color: #946CE6;
+    mask-image: url('../assets/platform-icons/afdian.svg');
+    -webkit-mask-image: url('../assets/platform-icons/afdian.svg');
+}
+
+.buttons a .platform-icon.qq {
+    background-color: #1EBAFC;
+    mask-image: url('../assets/platform-icons/qq.svg');
+    -webkit-mask-image: url('../assets/platform-icons/qq.svg');
+}
+
+.buttons a .button-label {
+    display: block;
+    text-align: center;
+    margin-left: 28px;
+    width: 100%;
+}
+
+.buttons a.blur {
+    backdrop-filter: blur(8px);
+}
+
+.buttons.home-buttons {
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.buttons.home-buttons a {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: var(--md-sys-elevation-1);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buttons.home-buttons a:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: var(--md-sys-elevation-2);
+}
+
+.buttons.home-buttons a img {
+    width: 24px;
+    height: 24px;
+    position: static;
+}
+
+.buttons a.mono img {
+    filter: brightness(0);
+}
+
+.buttons a.mono:hover img {
+    filter: brightness(0) invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+    .buttons a {
+        background-color: var(--md-sys-color-surface-strong);
+        color: var(--md-sys-color-on-surface);
+    }
+
+    .buttons a.mono img {
+        filter: brightness(0) invert(1);
+    }
+
+    .buttons a.mono:hover img {
+        filter: brightness(0);
+    }
+}

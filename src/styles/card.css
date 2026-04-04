@@ -10,14 +10,16 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    border-radius: 33px;
+    border: 1px solid var(--md-sys-color-outline);
+    border-radius: var(--md-sys-shape-corner-md);
     padding: 15px 20px;
     box-sizing: border-box;
     max-width: 600px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000;
+    background-color: var(--md-sys-color-surface-strong);
+    color: var(--md-sys-color-on-surface);
     margin: 0 auto;
+    box-shadow: var(--md-sys-elevation-1);
 }
 
 .card span.label {
@@ -97,8 +99,8 @@
 
 @media (prefers-color-scheme: dark) {
     .card {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
+        background-color: var(--md-sys-color-surface-strong);
+        color: var(--md-sys-color-on-surface);
     }
 }
 

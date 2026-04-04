@@ -1,0 +1,46 @@
+:root {
+    color-scheme: light dark;
+
+    --md-sys-color-primary: rgb(58, 110, 183);
+    --md-sys-color-on-primary: rgb(255, 255, 255);
+    --md-sys-color-secondary: rgb(87, 97, 121);
+    --md-sys-color-on-secondary: rgb(255, 255, 255);
+    --md-sys-color-surface: rgba(252, 252, 255, 0.82);
+    --md-sys-color-surface-strong: rgba(255, 255, 255, 0.66);
+    --md-sys-color-surface-inverse: rgba(17, 19, 24, 0.74);
+    --md-sys-color-on-surface: rgb(22, 27, 34);
+    --md-sys-color-on-surface-muted: rgba(22, 27, 34, 0.72);
+    --md-sys-color-outline: rgba(116, 119, 127, 0.28);
+    --md-sys-color-shadow: rgba(15, 23, 42, 0.18);
+    --md-sys-color-success: rgb(46, 125, 50);
+    --md-sys-color-warning: rgb(245, 124, 0);
+    --md-sys-color-error: rgb(198, 40, 40);
+
+    --md-sys-shape-corner-xs: 12px;
+    --md-sys-shape-corner-sm: 18px;
+    --md-sys-shape-corner-md: 24px;
+    --md-sys-shape-corner-lg: 32px;
+    --md-sys-shape-corner-xl: 48px;
+    --md-sys-state-hover: 0.12;
+    --md-sys-elevation-1: 0 8px 24px var(--md-sys-color-shadow);
+    --md-sys-elevation-2: 0 18px 36px rgba(15, 23, 42, 0.22);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --md-sys-color-primary: rgb(155, 203, 255);
+        --md-sys-color-on-primary: rgb(10, 31, 62);
+        --md-sys-color-secondary: rgb(191, 198, 220);
+        --md-sys-color-on-secondary: rgb(44, 52, 73);
+        --md-sys-color-surface: rgba(16, 19, 27, 0.8);
+        --md-sys-color-surface-strong: rgba(0, 0, 0, 0.5);
+        --md-sys-color-surface-inverse: rgba(241, 244, 249, 0.74);
+        --md-sys-color-on-surface: rgb(239, 241, 247);
+        --md-sys-color-on-surface-muted: rgba(239, 241, 247, 0.75);
+        --md-sys-color-outline: rgba(146, 153, 170, 0.35);
+        --md-sys-color-shadow: rgba(0, 0, 0, 0.32);
+        --md-sys-color-success: rgb(129, 199, 132);
+        --md-sys-color-warning: rgb(255, 183, 77);
+        --md-sys-color-error: rgb(239, 154, 154);
+    }
+}

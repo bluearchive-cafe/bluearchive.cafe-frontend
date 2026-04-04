@@ -15,7 +15,7 @@
         <span class="value">安装包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/android.png">
+        <img src="./assets/platform-icons/android.svg">
       </div>
       <div class="status value">
         <span class="value" data-key="android/status">获取中</span>
@@ -61,7 +61,7 @@
         <span class="value">应用包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/apple.png">
+        <img src="./assets/platform-icons/apple.svg">
       </div>
       <div class="status value">
         <span class="value" data-key="apple/status">获取中</span>
@@ -107,7 +107,7 @@
         <span class="value">启动器</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/windows.png">
+        <img src="./assets/platform-icons/windows.svg">
       </div>
       <div class="status value">
         <span class="value" data-key="launcher/status">获取中</span>
@@ -373,8 +373,3 @@
 </div>
 
 </article>
-
-<footer>
-  <a href="https://github.com/bluearchive-cafe" title="点击跳转" target="_blank" rel="noopener">BlueArchive.Cafe</a>
-  <span> © 2026. All rights reserved.</span>
-</footer>

@@ -177,8 +177,3 @@
 > 客户端版本需要更新，请老师在本站重新下载专用客户端并覆盖安装
 
 </article>
-
-<footer>
-  <a href="https://github.com/bluearchive-cafe" title="点击跳转" target="_blank" rel="noopener">BlueArchive.Cafe</a>
-  <span> © 2026. All rights reserved.</span>
-</footer>
