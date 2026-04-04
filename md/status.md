@@ -15,7 +15,7 @@
         <span class="value">安装包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/android.png">
+        <img src="./assets/icons/android.png">
       </div>
       <div class="status value">
         <span class="value" data-key="android/status">获取中</span>
@@ -61,7 +61,7 @@
         <span class="value">应用包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/apple.png">
+        <img src="./assets/icons/apple.png">
       </div>
       <div class="status value">
         <span class="value" data-key="apple/status">获取中</span>
@@ -107,7 +107,7 @@
         <span class="value">启动器</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/windows.png">
+        <img src="./assets/icons/windows.png">
       </div>
       <div class="status value">
         <span class="value" data-key="launcher/status">获取中</span>
@@ -153,7 +153,7 @@
         <span class="value">资源包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/unity.png">
+        <img src="./assets/icons/unity.png">
       </div>
       <div class="status value">
         <span class="value" data-key="windows/status">获取中</span>
@@ -199,7 +199,7 @@
         <span class="value">公告包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/triangle.png">
+        <img src="./assets/icons/triangle.png">
       </div>
       <div class="status value">
         <span class="value" data-key="notice/status">获取中</span>
@@ -245,7 +245,7 @@
         <span class="value">文本包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/cross.png">
+        <img src="./assets/icons/cross.png">
       </div>
       <div class="status value">
         <span class="value" data-key="text/status">获取中</span>
@@ -291,7 +291,7 @@
         <span class="value">语音包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/plus.png">
+        <img src="./assets/icons/plus.png">
       </div>
       <div class="status value">
         <span class="value" data-key="voice/status">获取中</span>
@@ -337,7 +337,7 @@
         <span class="value">图像包</span>
       </div>
       <div class="status icon">
-        <img src="/assets/icons/circle.png">
+        <img src="./assets/icons/circle.png">
       </div>
       <div class="status value">
         <span class="value" data-key="media/status">获取中</span>
