@@ -29,20 +29,32 @@ nav .material-symbols-outlined {
 
 nav.bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 72px;
     bottom: 0;
     border: 1px solid var(--md-sys-color-outline);
     box-shadow: var(--md-sys-elevation-1);
+    box-sizing: border-box;
+    padding: 0 max(4px, env(safe-area-inset-left)) max(0px, env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-right));
 }
 
 nav.bottom a {
-    min-width: 64px;
-    font-size: 12px;
+    flex: 1 1 0;
+    min-width: 0;
+    font-size: 11px;
     gap: 4px;
-    padding: 10px 12px;
+    padding: 10px 6px;
     border-radius: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+nav.bottom a .nav-label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 nav.bottom a.active {
@@ -211,5 +223,6 @@ nav.top {
         width: 90vw;
         left: 50%;
         transform: translateX(-50%);
+        padding-bottom: max(0px, env(safe-area-inset-bottom));
     }
 }
