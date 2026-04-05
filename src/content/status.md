@@ -153,7 +153,7 @@
         <span class="value">资源包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/unity.png">
+        <span class="material-symbols-outlined status-symbol asset" aria-hidden="true">deployed_code</span>
       </div>
       <div class="status value">
         <span class="value" data-key="windows/status">获取中</span>
@@ -199,7 +199,7 @@
         <span class="value">公告包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/triangle.png">
+        <span class="material-symbols-outlined status-symbol notice" aria-hidden="true">event_note</span>
       </div>
       <div class="status value">
         <span class="value" data-key="notice/status">获取中</span>
@@ -245,7 +245,7 @@
         <span class="value">文本包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/cross.png">
+        <span class="material-symbols-outlined status-symbol text" aria-hidden="true">article</span>
       </div>
       <div class="status value">
         <span class="value" data-key="text/status">获取中</span>
@@ -291,7 +291,7 @@
         <span class="value">语音包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/plus.png">
+        <span class="material-symbols-outlined status-symbol voice" aria-hidden="true">volume_up</span>
       </div>
       <div class="status value">
         <span class="value" data-key="voice/status">获取中</span>
@@ -337,7 +337,7 @@
         <span class="value">图像包</span>
       </div>
       <div class="status icon">
-        <img src="./assets/icons/circle.png">
+        <span class="material-symbols-outlined status-symbol media" aria-hidden="true">image</span>
       </div>
       <div class="status value">
         <span class="value" data-key="media/status">获取中</span>

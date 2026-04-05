@@ -43,12 +43,3 @@ GitHub 项目主页：
     </div>
   </div>
 </div>
-
-## 图标资源
-
-> Android 是 Google LLC 的商标。
->
-> Apple 是 Apple Inc. 的商标。
->
-> Microsoft, Microsoft Windows are trademarks of the Microsoft group of companies.
-</article>
