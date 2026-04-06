@@ -37,6 +37,9 @@ nav.bottom {
     box-shadow: var(--md-sys-elevation-1);
     box-sizing: border-box;
     padding: 0 max(4px, env(safe-area-inset-left)) max(0px, env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-right));
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 nav.bottom a {
@@ -48,6 +51,8 @@ nav.bottom a {
     border-radius: 16px;
     box-sizing: border-box;
     overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 nav.bottom a .nav-label {
@@ -55,6 +60,8 @@ nav.bottom a .nav-label {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 nav.bottom a.active {
