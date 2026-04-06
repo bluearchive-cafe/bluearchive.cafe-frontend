@@ -266,6 +266,7 @@
 
 .markdown-body .status-table th,
 .markdown-body .status-table td {
+    padding: 15px 16px !important;
     border-left: 0 !important;
     border-right: 0 !important;
 }
@@ -407,7 +408,7 @@
     }
 
     .status-panel-body {
-        padding: 0 16px 16px;
+        padding: 8px 16px 16px;
     }
 
     .status-table,
@@ -427,11 +428,11 @@
 
     .status-table tbody {
         display: grid;
-        gap: 12px;
+        gap: 8px;
     }
 
     .status-table tr {
-        padding: 12px 14px;
+        padding: 22px;
         border: 1px solid color-mix(in srgb, var(--md-sys-color-outline) 80%, white);
         border-radius: var(--md-sys-shape-corner-sm);
     }
@@ -444,8 +445,10 @@
         background: color-mix(in srgb, var(--md-sys-color-success) 10%, white) !important;
     }
 
-    .status-table td {
+    .markdown-body .status-table td,
+    .markdown-body .status-table th {
         padding: 0;
+        padding: 0 !important;
         border: 0 !important;
     }
 
@@ -459,7 +462,7 @@
     }
 
     .status-table td + td {
-        margin-top: 8px;
+        margin-top: 10px;
     }
 
     .status-table td.label {
