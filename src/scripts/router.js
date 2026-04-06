@@ -22,10 +22,6 @@ export function initRouter(htmls, pagesConfig) {
 
   topNav.innerHTML = `
     <div class="site-top-tabs-shell">
-      <div class="site-title" aria-label="站点标题">
-        <!-- <span class="material-symbols-outlined" aria-hidden="true">local_cafe</span> -->
-        <span class="site-title-text">蔚蓝咖啡厅</span>
-      </div>
       <div class="site-top-tabs" role="tablist" aria-label="页面标签">${buildNavMarkup(pagesConfig)}</div>
     </div>
   `

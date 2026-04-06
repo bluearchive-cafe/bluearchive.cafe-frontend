@@ -84,49 +84,21 @@ nav.top {
     align-items: stretch;
     justify-content: center;
     width: 100%;
-    background: rgba(255, 255, 255, 0.48);
+    background: color-mix(in srgb, var(--md-sys-color-surface-strong) 78%, transparent);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--md-sys-color-outline);
     box-shadow: var(--md-sys-elevation-1);
 }
 
-.site-title {
-    position: absolute;
-    z-index: 2;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 0 20px;
-    min-width: max-content;
-    color: var(--md-sys-color-on-surface);
-    border-right: 1px solid var(--md-sys-color-outline);
-}
-
-.site-title .material-symbols-outlined {
-    color: var(--md-sys-color-primary);
-    font-size: 20px;
-}
-
-.site-title-text {
-    font-size: 0.98rem;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    white-space: nowrap;
-}
-
 .site-top-tabs {
     position: relative;
-    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 6px;
     width: 100%;
-    min-height: 56px;
-    padding: 0 200px;
+    min-height: 58px;
+    padding: 0 24px;
     box-sizing: border-box;
     overflow-x: auto;
     scrollbar-width: none;
@@ -144,8 +116,8 @@ nav.top {
     flex-direction: row;
     gap: 10px;
     min-width: 112px;
-    height: 48px;
-    padding: 0 16px;
+    height: 52px;
+    padding: 0 16px 4px;
     box-sizing: border-box;
     font-size: 0.95rem;
     font-weight: 500;
@@ -173,7 +145,7 @@ nav.top {
 }
 
 .top-tab:hover::before {
-    background: color-mix(in srgb, var(--md-sys-color-primary) 10%, transparent);
+    background: color-mix(in srgb, var(--md-sys-color-primary) 11%, transparent);
 }
 
 .top-tab .nav-label {
@@ -231,13 +203,10 @@ nav.top {
         background: var(--md-sys-color-surface-strong);
     }
 
-    .site-top-tabs {
-        background: rgba(17, 19, 24, 0.48);
+    .site-top-tabs-shell {
+        background: color-mix(in srgb, var(--md-sys-color-surface-strong) 86%, transparent);
     }
 
-    .site-top-tabs-shell {
-        background: rgba(17, 19, 24, 0.48);
-    }
 }
 
 @media (min-width: 768px) {
@@ -252,7 +221,7 @@ nav.top {
 
 @media (min-width: 768px) and (max-width: 1100px) {
     .site-top-tabs {
-        padding: 0 168px;
+        padding: 0 20px;
     }
 }
 
