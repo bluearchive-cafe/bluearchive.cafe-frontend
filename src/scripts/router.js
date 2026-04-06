@@ -11,8 +11,7 @@ function buildNavMarkup(pagesConfig, compact = false) {
 
     const icon = `<span class="material-symbols-outlined" aria-hidden="true">${page.icon}</span>`
     const label = `<span class="nav-label">${page.label}</span>`
-    const indicator = `<span class="tab-indicator" aria-hidden="true"></span>`
-    return `<a href="${href}" data-page="${page.id}" class="top-tab">${icon}${label}${indicator}</a>`
+    return `<a href="${href}" data-page="${page.id}" class="top-tab">${icon}${label}</a>`
   }).join('')
 }
 
