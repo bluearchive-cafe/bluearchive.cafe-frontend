@@ -14,13 +14,13 @@ export async function fillStatus() {
 
         if (!official || !localized) {
           el.textContent = '未获取'
-          el.style.color = 'rgb(245, 180, 0)'
+          el.dataset.statusState = 'loading'
         } else if (official === localized) {
           el.textContent = '已同步'
-          el.style.color = 'rgb(46, 204, 113)'
+          el.dataset.statusState = 'success'
         } else {
           el.textContent = '未同步'
-          el.style.color = 'rgb(231, 76, 60)'
+          el.dataset.statusState = 'error'
         }
         return
       }
@@ -31,7 +31,7 @@ export async function fillStatus() {
   } catch {
     document.querySelectorAll('[data-key]').forEach((el) => {
       el.textContent = '获取失败'
-      el.style.color = 'rgb(231, 76, 60)'
+      if (el.dataset.key.endsWith('/status')) el.dataset.statusState = 'error'
     })
   }
 }

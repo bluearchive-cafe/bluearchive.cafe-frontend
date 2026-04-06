@@ -102,6 +102,206 @@
     color: #ec407a;
 }
 
+.status-panels {
+    display: grid;
+    gap: 16px;
+}
+
+.status-panel {
+    border: 1px solid color-mix(in srgb, var(--md-sys-color-outline) 92%, white);
+    border-radius: var(--md-sys-shape-corner-md);
+    background: color-mix(in srgb, var(--md-sys-color-surface-strong) 88%, white);
+    box-shadow:
+        0 10px 24px rgba(15, 23, 42, 0.08);
+    overflow: clip;
+}
+
+.status-panel summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 20px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.status-panel summary::-webkit-details-marker {
+    display: none;
+}
+
+.status-panel-leading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-width: 0;
+}
+
+.status-panel-copy {
+    display: grid;
+    gap: 4px;
+    min-width: 0;
+}
+
+.status-panel-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--md-sys-color-on-surface);
+}
+
+.status-panel-desc {
+    font-size: 0.88rem;
+    color: var(--md-sys-color-on-surface-muted);
+    line-height: 1.45;
+}
+
+.status-panel-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.status-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 0 14px;
+    border-radius: 999px;
+    border: 0;
+    background: color-mix(in srgb, var(--md-sys-color-surface-inverse) 14%, white);
+    color: var(--md-sys-color-on-surface);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    gap: 6px;
+}
+
+.status-chip::before {
+    font-family: "Material Symbols Outlined";
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 20;
+    content: "hourglass_top";
+}
+
+.status-chip[data-status-state="loading"]::before {
+    content: "hourglass_top";
+}
+
+.status-chip[data-status-state="loading"] {
+    color: rgb(122, 67, 0);
+    background: rgb(255, 232, 186);
+}
+
+.status-chip[data-status-state="success"]::before {
+    content: "check_circle";
+}
+
+.status-chip[data-status-state="success"] {
+    color: rgb(16, 94, 41);
+    background: rgb(207, 242, 212);
+}
+
+.status-chip[data-status-state="error"]::before {
+    content: "error";
+}
+
+.status-chip[data-status-state="error"] {
+    color: rgb(126, 22, 29);
+    background: rgb(255, 218, 214);
+}
+
+.status-panel-expand {
+    color: var(--md-sys-color-on-surface-muted);
+    transition: transform 0.2s ease;
+}
+
+.status-panel[open] .status-panel-expand {
+    transform: rotate(180deg);
+}
+
+.status-panel-body {
+    padding: 0 20px 20px;
+    overflow: hidden;
+}
+
+.status-table {
+    display: table !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: auto !important;
+    background: transparent !important;
+}
+
+.status-table th,
+.status-table td {
+    padding: 15px 16px;
+    border-top: 1px solid color-mix(in srgb, var(--md-sys-color-outline) 72%, white);
+    text-align: left;
+    vertical-align: middle;
+}
+
+.markdown-body .status-table,
+.markdown-body .status-table thead,
+.markdown-body .status-table tbody,
+.markdown-body .status-table tr,
+.markdown-body .status-table th,
+.markdown-body .status-table td {
+    background: transparent !important;
+}
+
+.markdown-body .status-table th,
+.markdown-body .status-table td {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.status-table thead th {
+    border-top: 0;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--md-sys-color-on-surface-muted);
+}
+
+.status-table thead th:first-child {
+    width: 108px;
+    white-space: nowrap;
+}
+
+.status-table tbody tr:first-child td {
+    border-top: 0;
+}
+
+.status-table .label {
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: var(--md-sys-color-on-surface-muted);
+}
+
+.status-table .value {
+    font-size: 1.02rem;
+    line-height: 1.45;
+    color: var(--md-sys-color-on-surface);
+    overflow-wrap: anywhere;
+}
+
 .column.right {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
@@ -145,6 +345,37 @@
         background-color: var(--md-sys-color-surface-strong);
         color: var(--md-sys-color-on-surface);
     }
+
+    .status-panel {
+        border-color: color-mix(in srgb, var(--md-sys-color-outline) 92%, white);
+        background: color-mix(in srgb, var(--md-sys-color-surface-strong) 92%, black);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+    }
+
+    .status-chip {
+        background: color-mix(in srgb, var(--md-sys-color-surface-inverse) 22%, var(--md-sys-color-surface));
+        color: var(--md-sys-color-on-surface);
+    }
+
+    .status-chip[data-status-state="loading"] {
+        color: rgb(255, 214, 128);
+        background: rgb(88, 63, 18);
+    }
+
+    .status-chip[data-status-state="success"] {
+        color: rgb(167, 234, 178);
+        background: rgb(25, 70, 39);
+    }
+
+    .status-chip[data-status-state="error"] {
+        color: rgb(255, 186, 186);
+        background: rgb(93, 29, 34);
+    }
+
+    .status-table td {
+        border-top-color: color-mix(in srgb, var(--md-sys-color-outline) 84%, white);
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -155,5 +386,123 @@
     .cards {
         gap: 30px;
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .status-panel summary {
+        padding: 16px;
+        align-items: center;
+    }
+
+    .status-panel-leading {
+        gap: 14px;
+        align-items: center;
+        flex: 1;
+    }
+
+    .status-panel-meta {
+        align-self: center;
+        justify-content: flex-end;
+    }
+
+    .status-panel-body {
+        padding: 0 16px 16px;
+    }
+
+    .status-table,
+    .status-table thead,
+    .status-table tbody,
+    .status-table tr,
+    .status-table th,
+    .status-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .status-table thead {
+        display: none;
+    }
+
+    .status-table tbody {
+        display: grid;
+        gap: 12px;
+    }
+
+    .status-table tr {
+        padding: 12px 14px;
+        border: 1px solid color-mix(in srgb, var(--md-sys-color-outline) 80%, white);
+        border-radius: var(--md-sys-shape-corner-sm);
+    }
+
+    .status-table tr.official {
+        background: color-mix(in srgb, var(--md-sys-color-primary) 8%, white) !important;
+    }
+
+    .status-table tr.localized {
+        background: color-mix(in srgb, var(--md-sys-color-success) 10%, white) !important;
+    }
+
+    .status-table td {
+        padding: 0;
+        border: 0 !important;
+    }
+
+    .markdown-body .status-table,
+    .markdown-body .status-table tbody,
+    .markdown-body .status-table tr,
+    .markdown-body .status-table td,
+    .markdown-body .status-table th {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .status-table td + td {
+        margin-top: 8px;
+    }
+
+    .status-table td.label {
+        margin-bottom: 2px;
+        font-size: 0.96rem;
+        font-weight: 700;
+        color: var(--md-sys-color-on-surface);
+    }
+
+    .status-table td.value {
+        font-size: 0.98rem;
+        line-height: 1.45;
+    }
+
+    .status-table td.value::before {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--md-sys-color-on-surface-muted);
+    }
+
+    .status-table td.label + td.value::before {
+        content: "版本";
+    }
+
+    .status-table td.value:last-child::before {
+        content: "更新时间";
+    }
+}
+
+@media (prefers-color-scheme: dark) and (max-width: 767px) {
+    .status-table tr {
+        border-color: color-mix(in srgb, var(--md-sys-color-outline) 88%, white);
+    }
+
+    .status-table tr.official {
+        background: color-mix(in srgb, var(--md-sys-color-primary) 16%, var(--md-sys-color-surface)) !important;
+    }
+
+    .status-table tr.localized {
+        background: color-mix(in srgb, var(--md-sys-color-success) 18%, var(--md-sys-color-surface)) !important;
     }
 }
