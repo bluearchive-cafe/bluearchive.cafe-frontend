@@ -1,14 +1,14 @@
 <div class="buttons home-buttons">
-  <a href="#guide" class="mono blur" title="Android">
+  <a href="#guide/android" class="mono blur" title="Android">
     <img src="./assets/platform-icons/android.svg">
   </a>
-  <a href="#guide" class="mono blur" title="iOS">
+  <a href="#guide/ios" class="mono blur" title="iOS">
     <img src="./assets/platform-icons/apple.svg">
   </a>
-  <a href="#guide" class="mono blur" title="Windows">
+  <a href="#guide/windows" class="mono blur" title="Windows">
     <img src="./assets/platform-icons/windows.svg">
   </a>
-  <a href="#guide" class="mono blur" title="macOS">
+  <a href="#guide/macos" class="mono blur" title="macOS">
     <img src="./assets/platform-icons/macos.svg">
   </a>
 </div>

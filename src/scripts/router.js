@@ -32,12 +32,45 @@ export function initRouter(htmls, pagesConfig) {
   const bottomLinks = bottomNav.querySelectorAll('a')
   let renderTimer
 
-  const getCurrentPage = () => location.hash.slice(1) || 'home'
+  const getRoute = () => {
+    const [page = 'home', target = ''] = location.hash.slice(1).split('/')
+    return {
+      page: page || 'home',
+      target
+    }
+  }
+
+  const getCurrentPage = () => getRoute().page
 
   const getLinkPage = (link) => link.dataset.page || 'home'
 
+  const getTopScrollOffset = () => {
+    if (!window.matchMedia('(min-width: 768px)').matches) return 20
+
+    const topNavHeight = topNav.getBoundingClientRect().height
+    return topNavHeight + 48
+  }
+
+  const openGuideTarget = (target) => {
+    if (!target) return
+
+    const safeTargets = new Set(['android', 'ios', 'windows', 'macos'])
+    if (!safeTargets.has(target)) return
+
+    const targetPanel = main.querySelector(`[data-platform="${target}"]`)
+    if (!targetPanel) return
+
+    main.querySelectorAll('[data-platform]').forEach((panel) => {
+      panel.open = panel === targetPanel
+    })
+
+    const navOffset = getTopScrollOffset()
+    const targetTop = targetPanel.getBoundingClientRect().top + window.scrollY - navOffset
+    window.scrollTo({ top: Math.max(targetTop, 0), left: 0, behavior: 'smooth' })
+  }
+
   const render = () => {
-    const page = getCurrentPage()
+    const { page, target } = getRoute()
 
     clearTimeout(renderTimer)
 
@@ -57,6 +90,7 @@ export function initRouter(htmls, pagesConfig) {
       main.style.opacity = 1
       main.style.transform = 'translateY(0)'
       if (page === 'status') fillStatus()
+      if (page === 'guide') requestAnimationFrame(() => openGuideTarget(target))
     }, 200)
   }
 

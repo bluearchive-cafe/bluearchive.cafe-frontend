@@ -10,7 +10,7 @@
 
 <!--Android-->
 
-<details>
+<details id="guide-android" data-platform="android">
 <summary><h3>&nbsp;Android 平台</h3></summary>
 
 > [!NOTE]说明
@@ -37,7 +37,7 @@
 
 <!--iOS-->
 
-<details>
+<details id="guide-ios" data-platform="ios">
 <summary><h3>&nbsp;iOS 平台</h3></summary>
 
 > [!NOTE]说明
@@ -64,7 +64,7 @@
 
 <!--Windows-->
 
-<details>
+<details id="guide-windows" data-platform="windows">
 <summary><h3>&nbsp;Windows 平台</h3></summary>
 
 > [!NOTE]说明
@@ -89,7 +89,7 @@
 
 <!--macOS-->
 
-<details>
+<details id="guide-macos" data-platform="macos">
 <summary><h3>&nbsp;macOS 平台</h3></summary>
 
 > [!NOTE]说明
