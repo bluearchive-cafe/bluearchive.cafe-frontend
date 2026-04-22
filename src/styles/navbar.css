@@ -22,7 +22,7 @@ nav a.active {
 }
 
 nav .material-symbols-outlined {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1;
     font-variation-settings: 'OPSZ' 24, 'wght' 500, 'FILL' 0, 'GRAD' 0;
 }
@@ -45,14 +45,15 @@ nav.bottom {
 nav.bottom a {
     flex: 1 1 0;
     min-width: 0;
-    font-size: 11px;
-    gap: 4px;
-    padding: 10px 6px;
+    font-size: 12px;
+    gap: 2px;
+    padding: 7px 6px 8px;
     border-radius: 16px;
     box-sizing: border-box;
     overflow: hidden;
     user-select: none;
     -webkit-user-select: none;
+    position: relative;
 }
 
 nav.bottom a .nav-label {
@@ -65,7 +66,41 @@ nav.bottom a .nav-label {
 }
 
 nav.bottom a.active {
-    background: color-mix(in srgb, var(--md-sys-color-primary) 14%, transparent);
+    background: transparent;
+}
+
+nav.bottom a::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    width: 56px;
+    height: 32px;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--md-sys-color-primary) 18%, transparent);
+    opacity: 0;
+    transform: translateX(-50%) scaleX(0.6);
+    transition: opacity 0.2s ease, transform 0.25s cubic-bezier(0.2, 0, 0, 1);
+    pointer-events: none;
+}
+
+nav.bottom a.active::before {
+    opacity: 1;
+    transform: translateX(-50%) scaleX(1);
+}
+
+nav.bottom a .material-symbols-outlined,
+nav.bottom a .nav-label {
+    position: relative;
+    z-index: 1;
+}
+
+nav.bottom a .material-symbols-outlined {
+    width: 56px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav.top {
@@ -119,7 +154,7 @@ nav.top {
     height: 52px;
     padding: 0 16px 4px;
     box-sizing: border-box;
-    font-size: 0.95rem;
+    font-size: 1.02rem;
     font-weight: 500;
     line-height: 1;
     color: var(--md-sys-color-on-surface-muted);
@@ -161,7 +196,7 @@ nav.top {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .top-tab::after {
