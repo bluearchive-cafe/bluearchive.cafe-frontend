@@ -59,8 +59,7 @@ main {
 
 .site-footer {
     text-align: center;
-    margin-top: 5vh;
-    margin-bottom: 25vh;
+    margin: 24px 16px;
     font-size: 0.9rem;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -143,9 +142,23 @@ main {
     }
 }
 
+@media (max-width: 767px) {
+    body {
+        padding-bottom: calc(72px + env(safe-area-inset-bottom));
+    }
+
+    .site-footer {
+        margin-bottom: 36px;
+    }
+}
+
 @media (min-width: 768px) {
     header {
         margin-top: calc(25vh + 12px);
+    }
+
+    .site-footer {
+        margin: 5vh 0 8vh;
     }
 
     .markdown-body {
