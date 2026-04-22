@@ -45,10 +45,10 @@ export function initRouter(htmls, pagesConfig) {
   const getLinkPage = (link) => link.dataset.page || 'home'
 
   const getTopScrollOffset = () => {
-    if (!window.matchMedia('(min-width: 768px)').matches) return 20
+    if (!window.matchMedia('(min-width: 768px)').matches) return 40
 
     const topNavHeight = topNav.getBoundingClientRect().height
-    return topNavHeight + 48
+    return 48
   }
 
   const openGuideTarget = (target) => {
