@@ -28,7 +28,7 @@ GitHub 项目主页：
           </span>
           <span class="material-symbols-outlined about-item-trailing" aria-hidden="true">open_in_new</span>
         </a>
-        <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=Dx%2BleANt3viDEfAgDG0x2D2SPbKh6S0vuhbWcraTMpsUGOAr6vOWUD0ql0XXxfgu&busi_data=eyJncm91cENvZGUiOiI4Nzc0ODQ4NTgiLCJ0b2tlbiI6Inl5SmV3dkl5THFhYUVCUU14dzFaZnhGWkgvU09HclM1R20xWDUyS2d4V3pwYzR1Nlc0aHk5aTBKOFBqOXJMS3giLCJ1aW4iOiIyMjQ2NDY0ODU3In0%3D&data=yEBUVHtG2L3wXGISb1znqNHngiajIMizyO417FBMrakUwcFA2WjaAp2dmIzop7gmhDHSFvm1lwyd0FwyU6ZOIg&svctype=4&tempid=h5_group_info" class="about-item" title="点击跳转" target="_blank" rel="noopener" role="listitem">
+        <a href="https://qm.qq.com/q/YPU4KjGVmA" class="about-item" title="点击跳转" target="_blank" rel="noopener" role="listitem">
           <span class="about-item-leading">
             <span class="about-platform-icon qq" aria-hidden="true"></span>
           </span>
