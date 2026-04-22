@@ -51,7 +51,7 @@ GitHub 项目主页：
         </div>
       </div>
       <div class="about-list" role="list">
-        <a href="./assets/images/appreciation.png" class="about-item" title="点击跳转" target="_blank" rel="noopener" role="listitem">
+        <a href="./assets/images/appreciation.png" class="about-item" title="微信赞赏码" target="_blank" rel="noopener" role="listitem">
           <span class="about-item-leading">
             <span class="about-platform-icon wechat" aria-hidden="true"></span>
           </span>
