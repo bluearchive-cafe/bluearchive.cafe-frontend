@@ -22,7 +22,7 @@ nav a.active {
 }
 
 nav .material-symbols-outlined {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1;
     font-variation-settings: 'OPSZ' 24, 'wght' 500, 'FILL' 0, 'GRAD' 0;
 }
@@ -154,7 +154,7 @@ nav.top {
     height: 52px;
     padding: 0 16px 4px;
     box-sizing: border-box;
-    font-size: 1.02rem;
+    font-size: 0.95rem;
     font-weight: 500;
     line-height: 1;
     color: var(--md-sys-color-on-surface-muted);
@@ -196,7 +196,7 @@ nav.top {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .top-tab::after {
