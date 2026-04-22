@@ -126,6 +126,8 @@
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .status-panel summary::-webkit-details-marker {
@@ -403,6 +405,10 @@
     color: var(--md-sys-color-on-surface);
     text-decoration: none;
     transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .about-item:hover {
