@@ -83,10 +83,30 @@ main {
 }
 
 .site-footer {
+    display: grid;
+    gap: 8px;
     text-align: center;
     margin: 24px 16px;
     font-size: 0.9rem;
+    line-height: 1.65;
     transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.site-footer-meta,
+.site-footer-records {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px 10px;
+}
+
+.site-footer-records {
+    font-size: 0.84rem;
+}
+
+.site-footer-separator {
+    color: var(--md-sys-color-on-surface-muted);
 }
 
 .site-footer a {
@@ -180,6 +200,23 @@ main {
 
     .site-footer {
         margin-bottom: 36px;
+    }
+
+    .site-footer {
+        gap: 6px;
+    }
+
+    .site-footer-meta,
+    .site-footer-records {
+        gap: 4px 8px;
+    }
+
+    .site-footer-records {
+        flex-direction: column;
+    }
+
+    .site-footer-separator {
+        display: none;
     }
 
     .brand-text {

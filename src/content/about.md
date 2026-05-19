@@ -4,7 +4,7 @@
 
 <p align=center>
 GitHub 项目主页：
-<a href="https://github.com/bluearchive-cafe" target="_blank" rel="noopener">bluearchive-cafe</a>
+<a href="https://github.com/bluearchive-cafe" target="_blank" rel="noopener noreferrer">bluearchive-cafe</a>
 </p>
 
 <div class="cards">
@@ -18,7 +18,7 @@ GitHub 项目主页：
         </div>
       </div>
       <div class="about-list" role="list">
-        <a href="https://space.bilibili.com/3706947316484682" class="about-item" title="点击跳转" target="_blank" rel="noopener" role="listitem">
+        <a href="https://space.bilibili.com/3706947316484682" class="about-item" title="点击跳转" target="_blank" rel="noopener noreferrer" role="listitem">
           <span class="about-item-leading">
             <span class="about-platform-icon bilibili" aria-hidden="true"></span>
           </span>
@@ -28,7 +28,7 @@ GitHub 项目主页：
           </span>
           <span class="material-symbols-outlined about-item-trailing" aria-hidden="true">open_in_new</span>
         </a>
-        <a href="https://qm.qq.com/q/YPU4KjGVmA" class="about-item" title="点击跳转" target="_blank" rel="noopener" role="listitem">
+        <a href="https://qm.qq.com/q/YPU4KjGVmA" class="about-item" title="点击跳转" target="_blank" rel="noopener noreferrer" role="listitem">
           <span class="about-item-leading">
             <span class="about-platform-icon qq" aria-hidden="true"></span>
           </span>
@@ -51,7 +51,7 @@ GitHub 项目主页：
         </div>
       </div>
       <div class="about-list" role="list">
-        <a href="./assets/images/appreciation.png" class="about-item" title="微信赞赏码" target="_blank" rel="noopener" role="listitem">
+        <a href="./assets/images/appreciation.png" class="about-item" title="微信赞赏码" target="_blank" rel="noopener noreferrer" role="listitem">
           <span class="about-item-leading">
             <span class="about-platform-icon wechat" aria-hidden="true"></span>
           </span>
@@ -61,7 +61,7 @@ GitHub 项目主页：
           </span>
           <span class="material-symbols-outlined about-item-trailing" aria-hidden="true">qr_code_2</span>
         </a>
-        <a href="https://afdian.com/a/bluearchive-cafe" class="about-item" title="点击跳转" target="_blank" rel="noopener" role="listitem">
+        <a href="https://afdian.com/a/bluearchive-cafe" class="about-item" title="点击跳转" target="_blank" rel="noopener noreferrer" role="listitem">
           <span class="about-item-leading">
             <span class="about-platform-icon afdian" aria-hidden="true"></span>
           </span>
