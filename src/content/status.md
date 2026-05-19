@@ -47,14 +47,14 @@
   <details class="status-panel">
     <summary>
       <span class="status-panel-leading">
-        <span class="material-symbols-outlined status-symbol apple" aria-hidden="true">devices</span>
+        <span class="material-symbols-outlined status-symbol ios" aria-hidden="true">devices</span>
         <span class="status-panel-copy">
           <span class="status-panel-title">应用包</span>
           <span class="status-panel-desc">iOS / macOS 专用客户端应用包</span>
         </span>
       </span>
       <span class="status-panel-meta">
-        <span class="status-chip" data-key="apple/status" data-status-state="loading">获取中</span>
+        <span class="status-chip" data-key="ios/status" data-status-state="loading">获取中</span>
         <span class="material-symbols-outlined status-panel-expand" aria-hidden="true">expand_more</span>
       </span>
     </summary>
@@ -70,13 +70,13 @@
         <tbody>
           <tr class="official">
             <td class="label">官方</td>
-            <td class="value" data-key="apple/official/version">正在获取</td>
-            <td class="value" data-key="apple/official/time">正在获取</td>
+            <td class="value" data-key="ios/official/version">正在获取</td>
+            <td class="value" data-key="ios/official/time">正在获取</td>
           </tr>
           <tr class="localized">
             <td class="label">汉化</td>
-            <td class="value" data-key="apple/localized/version">正在获取</td>
-            <td class="value" data-key="apple/localized/time">正在获取</td>
+            <td class="value" data-key="ios/localized/version">正在获取</td>
+            <td class="value" data-key="ios/localized/time">正在获取</td>
           </tr>
         </tbody>
       </table>

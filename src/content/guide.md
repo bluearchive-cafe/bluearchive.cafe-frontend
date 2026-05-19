@@ -4,6 +4,16 @@
 
 > 本项目支持日服客户端内游戏文本、中配语音、图像视频等内容的汉化，并且自带免费登录加速功能
 
+## 免责声明
+
+> 本项目用于日服客户端汉化，不对因使用或无法使用本项目所产生的损失承担任何责任
+
+- “蔚蓝档案”是上海星啸网络科技有限公司的注册商标，版权所有。
+
+- 「ブルーアーカイブ」は株式会社Yostarの登録商標です。著作権はすべて保有されています。
+
+- “蔚蓝咖啡厅”是由爱好者创立并维护的民间项目，与以上游戏及公司并无官方关联。
+
 ## 一、安装
 
 > 本项目广泛支持 `Android`、`iOS`、`Windows`、`macOS` 等主流平台，点击标题展开详细说明
@@ -27,9 +37,9 @@
 
 <div align=center>
 
-[![Android 共存版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++共存版&secondaryLabel=下载&primaryBGColor=%23359e4f&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=android&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://download.bluearchive.cafe/android/cafe.YostarJP.BlueArchive-1.67.412528.apk)
+[![Android 共存版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++共存版&secondaryLabel=下载&primaryBGColor=%23359e4f&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=android&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://api.bluearchive.cafe/download/file?platform=android&version=latest&file=cafe.YostarJP.BlueArchive.apk)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![Android 独占版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++独占版&secondaryLabel=下载&primaryBGColor=%23359e4f&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=android&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://download.bluearchive.cafe/android/com.YostarJP.BlueArchive-1.67.412528.apk)
+[![Android 独占版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++独占版&secondaryLabel=下载&primaryBGColor=%23359e4f&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=android&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://api.bluearchive.cafe/download/file?platform=android&version=latest&file=com.YostarJP.BlueArchive.apk)
 
 </div>
 
@@ -54,9 +64,9 @@
 
 <div align=center>
 
-[![iOS 自签版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++自签版&secondaryLabel=下载&primaryBGColor=%232d2d2d&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=apple&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://download.bluearchive.cafe/ios/com.YostarJP.BlueArchive-1.67.412528.ipa)
+[![iOS 自签版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++自签版&secondaryLabel=下载&primaryBGColor=%232d2d2d&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=apple&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://api.bluearchive.cafe/download/file?platform=ios&version=latest&file=com.YostarJP.BlueArchive.ipa)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![iOS 免签版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++免签版&secondaryLabel=下载&primaryBGColor=%232d2d2d&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=apple&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](itms-services://?action=download-manifest&url=https://bluearchive.cafe/ios/ipa.plist)
+[![iOS 免签版](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++免签版&secondaryLabel=下载&primaryBGColor=%232d2d2d&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=apple&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://api.bluearchive.cafe/download/itms?version=latest)
 
 </div>
 
@@ -81,7 +91,7 @@
 
 <div align=center>
 
-[![Windows 启动器](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++启动器&secondaryLabel=下载&primaryBGColor=%230e5cab&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=geocaching&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://download.bluearchive.cafe/windows/BlueArchive_JP_Gamelauncher-1.7.2.zip)
+[![Windows 启动器](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++启动器&secondaryLabel=下载&primaryBGColor=%230e5cab&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=geocaching&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://api.bluearchive.cafe/download/file?platform=launcher&version=latest&file=BlueArchive_JP_Gamelauncher.zip)
 
 </div>
 
@@ -109,7 +119,7 @@
 
 <div align=center>
 
-[![macOS 应用包](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++应用包&secondaryLabel=下载&primaryBGColor=%230e5cab&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=xcode&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://download.bluearchive.cafe/ios/com.YostarJP.BlueArchive-1.67.412528.ipa)
+[![macOS 应用包](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=++应用包&secondaryLabel=下载&primaryBGColor=%230e5cab&primaryTextColor=%23ffffff&secondaryBGColor=%23f9f9fd&secondaryTextColor=%23000000&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=xcode&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&borderRadius=10)](https://api.bluearchive.cafe/download/file?platform=ios&version=latest&file=com.YostarJP.BlueArchive.ipa)
 
 </details>
 
@@ -156,7 +166,7 @@
 > [!IMPORTANT]重要
 > 要访问浏览器控制面板，需要先在公告内控制面板内复制链接，或获得自己的 UID，然后将 UID 拼接到以下 URL 之后：
 > ```
-> https://dash.bluearchive.cafe?uid=
+> https://control.bluearchive.cafe?uid=
 > ```
 
 ## 三、问题
