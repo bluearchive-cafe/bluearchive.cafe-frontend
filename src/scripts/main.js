@@ -11,13 +11,19 @@ import { loadPages } from './pages'
 import { pagesConfig } from './pages-config'
 import { initRouter } from './router'
 
+const brandConfig = {
+  mode: 'text'
+}
+
 const backgroundVideo = document.querySelector('#bg-video')
-const lightLogo = document.querySelector('header .light')
-const darkLogo = document.querySelector('header .dark')
+const header = document.querySelector('header')
+const lightLogo = document.querySelector('header .brand-image.light')
+const darkLogo = document.querySelector('header .brand-image.dark')
 
 backgroundVideo.src = assetUrls.backgroundVideo
 lightLogo.src = assetUrls.logoLight
 darkLogo.src = assetUrls.logoDark
+header.dataset.brandMode = brandConfig.mode
 
 const pages = loadPages()
 initRouter(pages, pagesConfig)
