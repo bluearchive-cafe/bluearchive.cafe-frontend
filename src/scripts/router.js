@@ -30,12 +30,15 @@ export function initRouter(htmls, pagesConfig) {
   const navTargets = document.querySelectorAll('[data-page]')
   const topTabs = topNav.querySelectorAll('.top-tab')
   const bottomLinks = bottomNav.querySelectorAll('a')
+  const pageIds = new Set(pagesConfig.map((page) => page.id))
   let renderTimer
 
   const getRoute = () => {
-    const [page = 'home', target = ''] = location.hash.slice(1).split('/')
+    const [rawPage = 'home', target = ''] = location.hash.slice(1).split('/')
+    const page = rawPage || 'home'
+
     return {
-      page: page || 'home',
+      page: pageIds.has(page) ? page : 'home',
       target
     }
   }
@@ -47,8 +50,7 @@ export function initRouter(htmls, pagesConfig) {
   const getTopScrollOffset = () => {
     if (!window.matchMedia('(min-width: 768px)').matches) return 40
 
-    const topNavHeight = topNav.getBoundingClientRect().height
-    return 48
+    return topNav.getBoundingClientRect().height + 48
   }
 
   const openGuideTarget = (target) => {
