@@ -4,9 +4,11 @@ import '../styles/navbar.css'
 import '../styles/card.css'
 import '../styles/button.css'
 import '../styles/lightbox.css'
+import '../styles/notification.css'
 
 import { assetUrls } from './asset-urls'
 import { initLightbox } from './lightbox'
+import { initNotification } from './notification'
 import { loadPages } from './pages'
 import { pagesConfig } from './pages-config'
 import { initRouter } from './router'
@@ -28,3 +30,4 @@ header.dataset.brandMode = brandConfig.mode
 const pages = loadPages()
 initRouter(pages, pagesConfig)
 initLightbox()
+initNotification()
